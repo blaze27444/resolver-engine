@@ -1,0 +1,27 @@
+{
+  "patches": {
+    "pkg:npm/parse-url@5.0.1": {
+      "uuid": "ec03856a-be18-4565-87c3-51af1fdbada7",
+      "exportedAt": "Tue, 24 Feb 2026 14:48:17 GMT",
+      "files": {
+        "package/lib/index.js": {
+          "beforeHash": "d8570aee491f9d9b3f898cc17a1e666814ab5c9c2e1d2805736e2cb76c99d418",
+          "afterHash": "b5d6d93ff84059f1884f3e2ed2f2faad0743bbeb26851aede77494ad22260711"
+        }
+      },
+      "vulnerabilities": {
+        "GHSA-7f3x-x4pr-wqhj": {
+          "cves": [
+            "CVE-2022-2216"
+          ],
+          "summary": "Server-Side Request Forgery in parse-url",
+          "severity": "CRITICAL",
+          "description": "Server-Side Request Forgery (SSRF) in GitHub repository ionicabizau/parse-url prior to 7.0.0."
+        }
+      },
+      "description": "",
+      "license": "MIT",
+      "tier": "free"
+    }
+  }
+}
